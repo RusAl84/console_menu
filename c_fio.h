@@ -81,6 +81,7 @@ class c_fio
 		}
 		void print()
 		{
+
 			setlocale(LC_ALL, "Russian");
 			cout << "Ф.И.О.:    " << mdata.fio << endl;
 			cout << "Факультет: " << mdata.facult << endl;
